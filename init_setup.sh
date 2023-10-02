@@ -6,5 +6,5 @@ echo [$(date)]: "activating the environment"
 source activate ./env
 echo [$(date)]: "ENVIRNMENT successfully created"
 echo [$(date)]: "INSTALLING requiremnts,txt"
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 echo [$(date)]: "END"
